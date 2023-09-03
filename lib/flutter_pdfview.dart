@@ -283,6 +283,9 @@ class _PDFViewSettings {
     if (preventLinkNavigation != newSettings.preventLinkNavigation) {
       updates['preventLinkNavigation'] = newSettings.preventLinkNavigation;
     }
+    if (nightMode != newSettings.nightMode) {
+      updates['nightMode'] = newSettings.nightMode;
+    }
     return updates;
   }
 }
